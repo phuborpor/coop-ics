@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ics</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+    <header></header>
+    <!-- side ber -->
+    <div class="sidebar">
+        <a href="https://icsco.ai/#/"><img src="./img/logo1.png" width="53px" height="53px" class="img"></a>
+        <hr class="solid">
+        <a href="index.html"><img src="./img/plc.png" width="36px" height="58px" class="img"></a>
+        <hr class="solid">
+    </div>
+    <!-- menu ber -->
+    <section>
+        <div class="plc">
+            <h1 class="plc">Place List</h1>
+        </div> 
+        <div class="container">
+            <select name="type" id="type">
+                <option value="res">Restaurant</option>
+                <option value="bak">Bakery</option>
+                <option value="caf">Cafe</option>
+            </select>
+
+            <div class="vl"></div>
+            
+            <form >
+                <input type="text1" id="search-box" onkeyup="myFunction()" class="search-control" placeholder="Search name...">
+                <button type="submit" class="search-btn btn" id="search-btn"><i class="fa fa-search"></i></button>
+                
+            </form> 
+        </div>
+    </section>
+    <!-- place item list-->
+    <section class="item" id="item"> 
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="row">
+                        <div class="text">
+                            <h3>Feast Palace</h3>
+                            <i class="fas fa-calendar-alt" >09:00 AM - 06:00 PM</i>
+
+                        </div>
+                        <img src="./img/feastp.jpg" class="Avatar1" width="60px" height="60px" > 
+                        
+        
+                        <div style="text-align:right" class="dotrate">
+                            <span class="dot"></span>
+                            <span class="rate">4.7</span>
+                        </div>
+      
+                        <div class="row1">
+                            <div class="column">
+                                <img class="demo1" src="./img/feastp1.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo2" src="./img/feastp2.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo3" src="./img/feastp3.jpg" width="120px" height="120px" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="row">
+                        <div class="text">
+                            <h3>Grub Chef</h3>
+                            <i class="fas fa-calendar-alt" >09:00 AM - 12:00 PM</i>
+
+                        </div>
+                        <img src="./img/grub.jpg" class="Avatar1" width="60px" height="60px" > 
+                        
+        
+                        <div style="text-align:right" class="dotrate">
+                            <span class="dot"></span>
+                            <span class="rate">4.3</span>
+                        </div>
+      
+                        <div class="row1">
+                            <div class="column">
+                                <img class="demo1" src="./img/grub1.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo2" src="./img/grub2.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo3" src="./img/grub3.jpg" width="120px" height="120px" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="row">
+                        <div class="text">
+                            <h3>Grub lord</h3>
+                            <i class="fas fa-calendar-alt" >11:00 AM - 06:00 PM</i>
+
+                        </div>
+                        <img src="./img/grubl.jpg" class="Avatar1" width="60px" height="60px" > 
+                        
+        
+                        <div style="text-align:right" class="dotrate">
+                            <span class="dot"></span>
+                            <span class="rate">4.0</span>
+                        </div>
+      
+                        <div class="row1">
+                            <div class="column">
+                                <img class="demo1" src="./img/grubl1.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo2" src="./img/grubl2.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo3" src="./img/grubl3.jpg" width="120px" height="120px" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="row">
+                        <div class="text">
+                            <h3>Kitchen Sensation</h3>
+                            <i class="fas fa-calendar-alt" >11:00 AM - 12:00 PM</i>
+
+                        </div>
+                        <img src="./img/kitch.jpg" class="Avatar1" width="60px" height="60px" > 
+                        
+        
+                        <div style="text-align:right" class="dotrate">
+                            <span class="dot"></span>
+                            <span class="rate">4.9</span>
+                        </div>
+      
+                        <div class="row1">
+                            <div class="column">
+                                <img class="demo1" src="./img/kitch1.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo2" src="./img/kitch2.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo3" src="./img/kitch3.jpg" width="120px" height="120px" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="row">
+                        <div class="text">
+                            <h3>Kitchen Takeout</h3>
+                            <i class="fas fa-calendar-alt" >11:00 AM - 06:00 PM</i>
+
+                        </div>
+                        <img src="./img/kitt.jpg" class="Avatar1" width="60px" height="60px" > 
+                        
+        
+                        <div style="text-align:right" class="dotrate">
+                            <span class="dot"></span>
+                            <span class="rate">3.7</span>
+                        </div>
+      
+                        <div class="row1">
+                            <div class="column">
+                                <img class="demo1" src="./img/kitt1.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo2" src="./img/kitt2.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo3" src="./img/kitt3.jpg" width="120px" height="120px" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="row">
+                        <div class="text">
+                            <h3>Menu Feed</h3>
+                            <i class="fas fa-calendar-alt" >09:00 AM - 06:00 PM</i>
+
+                        </div>
+                        <img src="./img/menu.jpg" class="Avatar1" width="60px" height="60px" > 
+                        
+        
+                        <div style="text-align:right" class="dotrate">
+                            <span class="dot"></span>
+                            <span class="rate">3.4</span>
+                        </div>
+      
+                        <div class="row1">
+                            <div class="column">
+                                <img class="demo1" src="./img/menu1.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo2" src="./img/menu2.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo3" src="./img/menu3.jpg" width="120px" height="120px" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="row">
+                        <div class="text">
+                            <h3>Menu Gusto</h3>
+                            <i class="fas fa-calendar-alt" >10:00 AM - 08:00 PM</i>
+
+                        </div>
+                        <img src="./img/menug.jpg" class="Avatar1" width="60px" height="60px" > 
+                        
+        
+                        <div style="text-align:right" class="dotrate">
+                            <span class="dot"></span>
+                            <span class="rate">3.0</span>
+                        </div>
+      
+                        <div class="row1">
+                            <div class="column">
+                                <img class="demo1" src="./img/menug1.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo2" src="./img/menug2.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo3" src="./img/menug3.jpg" width="120px" height="120px" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="row">
+                        <div class="text">
+                            <h3>Munchies</h3>
+                            <i class="fas fa-calendar-alt" >10:00 AM - 06:00 PM</i>
+
+                        </div>
+                        <img src="./img/mun.jpg" class="Avatar1" width="60px" height="60px" > 
+                        
+        
+                        <div style="text-align:right" class="dotrate">
+                            <span class="dot"></span>
+                            <span class="rate">5.0</span>
+                        </div>
+      
+                        <div class="row1">
+                            <div class="column">
+                                <img class="demo1" src="./img/mun1.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo2" src="./img/mun2.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo3" src="./img/mun3.jpg" width="120px" height="120px" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="row">
+                        <div class="text">
+                            <h3>Munch Grill</h3>
+                            <i class="fas fa-calendar-alt" >11:00 AM - 08:00 PM</i>
+
+                        </div>
+                        <img src="./img/mung.jpg" class="Avatar1" width="60px" height="60px" > 
+                        
+        
+                        <div style="text-align:right" class="dotrate">
+                            <span class="dot"></span>
+                            <span class="rate">3.4</span>
+                        </div>
+      
+                        <div class="row1">
+                            <div class="column">
+                                <img class="demo1" src="./img/mung1.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo2" src="./img/mung2.jpg" width="120px" height="120px" >
+                            </div>
+                            <div class="column">
+                                <img class="demo3" src="./img/mung3.jpg" width="120px" height="120px" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="center">
+            <div class="pagination" >
+                <a href="index.html">&#8249;</a>
+                <a href="index.html">1</a>
+                <a href="page2.html" class="active" >2</a>
+                <a href="#">&#8250;</a>
+            </div>
+        </div>
+        
+    </section>
+    
+
+
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
